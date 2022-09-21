@@ -9,7 +9,7 @@ option('libblas', type : 'string', value : '../../open_source/xtensor_stack/blas
 option('libxtensor', type : 'string', value : '../../open_source/xtensor_stack/base')
 
 # Python requirements
-option('include_python', type : 'boolean', value : false)
+option('include_python', type : 'boolean', value : true)
 option('pybind11', type : 'string', value : '../../open_source/pybind11/')
 option('python_version', type : 'string', value : '3.6')
 
